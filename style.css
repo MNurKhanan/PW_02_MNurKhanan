@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+div {
+  background: url(LogoUPG.png);
+  background-size: cover;
+  background-attachment: #086dd3;
+  padding-bottom: 220px;
+}
+
+h1 {
+  color: #333;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #18191a;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #ffa500;
+}
+
+tr:nth-child(even) {
+  background-color: #faf6f6; /* Warna latar belakang setiap baris genap */
+}
+
+a {
+  text-decoration: none;
+  color: #3498db;
+  margin-right: 10px;
+}
+
+a:hover {
+  color: #e74c3c;
+}
+
+button {
+  padding: 10px;
+  background-color: #2ecc71;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #27ae60;
+}
